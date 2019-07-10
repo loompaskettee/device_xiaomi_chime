@@ -72,6 +72,7 @@ ro.lmk.thrashing_limit_decay=50
 ro.lmk.stall_limit_critical=40
 
 # Media
+debug.stagefright.c2inputsurface=-1
 media.aac_51_output_enabled=true
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.enable-aac=true
