@@ -66,6 +66,11 @@ function blob_fixup() {
         vendor/lib64/libwvhidl.so)
             "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "${2}"
             ;;
+        vendor/etc/camera/camxoverridesettings.txt)
+            [ "$2" = "" ] && return 0
+            sed -i "s/0x10080/0/" "${2}"
+            sed -i "s/0x1F/0x0/" "${2}"
+            ;;
     esac
 }
 
