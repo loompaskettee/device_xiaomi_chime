@@ -1,3 +1,5 @@
+set_prop(init, vendor_fp_prop)
+
 allow init same_process_hal_file:file execute;
 allow init vendor_file:file execute;
 allow init proc_last_kmsg:file {
@@ -16,3 +18,5 @@ allow init sysfs:file setattr;
 
 allow init per_boot_file:file ioctl;
 allowxperm init per_boot_file:file ioctl { F2FS_IOC_SET_PIN_FILE };
+allowxperm init per_boot_file:file ioctl { F2FS_IOC_SET_PIN_FILE };
+

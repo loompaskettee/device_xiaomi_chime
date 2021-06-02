@@ -96,6 +96,7 @@ PRODUCT_COPY_FILES += \
 
 # Biomterics
 PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint-service.xiaomi \
     libvendor.goodix.hardware.biometrics.fingerprint@2.1.vendor \
     com.fingerprints.extension@1.0.vendor:64
 
@@ -418,6 +419,7 @@ PRODUCT_PACKAGES += \
     init.qti.dcvs.sh
 
 PRODUCT_PACKAGES += \
+    init.chime.fingerprint.rc \
     init.qcom.factory.rc \
     init.qcom.rc \
     init.qcom.usb.rc \

@@ -70,3 +70,10 @@ prebuilt_etc {
     sub_dir: "init/hw",
     vendor: true,
 }
+
+prebuilt_etc {
+    name: "init.chime.fingerprint.rc",
+    src: "etc/init.chime.fingerprint.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}

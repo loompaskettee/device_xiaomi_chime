@@ -119,25 +119,6 @@ on boot
 #HQ-83664  wifi sar function by wangzhengyuan at 20200727
     copy /vendor/etc/wifi/sar-vendor-cmd.xml /data/sar-vendor-cmd.xml
 
-#fingerprint
-    #goodix
-    chown system system /dev/goodix_fp
-    chmod 0777 /dev/goodix_fp
-    mkdir /data/vendor/goodix
-    chmod 0777 /data/vendor/goodix
-
-    # add for fpc 
-    chown system system /sys/bus/platform/devices/soc/soc:fpc1020/compatible_all
-    chmod 0666 /sys/bus/platform/devices/soc/soc:fpc1020/compatible_all
-    chown system system /sys/bus/platform/devices/soc/soc:fpc1020/irq
-    chmod 0666 /sys/bus/platform/devices/soc/soc:fpc1020/irq
-    chown system system /sys/bus/platform/devices/soc/soc:fpc1020/hw_reset
-    chmod 0666 /sys/bus/platform/devices/soc/soc:fpc1020/hw_reset
-    chown system system /sys/bus/platform/devices/soc/soc:fpc1020/wakeup_enable
-    chmod 0666 /sys/bus/platform/devices/soc/soc:fpc1020/wakeup_enable
-    chown system system /sys/bus/platform/devices/soc/soc:fpc1020/fingerdown_wait
-    chmod 0666 /sys/bus/platform/devices/soc/soc:fpc1020/fingerdown_wait
-    
     chown system system /dev/qseecom
     chmod 0666 /dev/qseecom
     #display
@@ -145,20 +126,6 @@ on boot
     chmod 0666 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_cabc
     chmod 0666 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_cabc_still
     chmod 0666 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dsi_display_cabc_movie
-
-    #focaltech
-    chown system system /dev/focaltech_fp
-    chmod 0777 /dev/focaltech_fp
-    # fingerprint focaltech
-    mkdir /data/vendor/focaltech 0760 system system
-    restorecon /data/vendor/focaltech
-
-    #cdfinger
-    chown system system /dev/fpsdev0
-    chmod 0777 /dev/fpsdev0
-
-    #silead
-    mkdir /data/system/silead 0770 system system
 
 #add dual
     mkdir /data/bin/
