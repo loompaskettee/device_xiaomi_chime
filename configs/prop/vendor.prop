@@ -256,6 +256,7 @@ persist.rild.nitz_short_ons_2=
 persist.rild.nitz_short_ons_3=
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
+telephony.active_modems.max_count=2
 
 # PASR
 vendor.pasr.activemode.enabled=true
