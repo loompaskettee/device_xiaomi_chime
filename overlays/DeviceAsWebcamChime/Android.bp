@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "DeviceAsWebcamChime",
+    theme: "DeviceAsWebcamChime",
+    sdk_version: "current",
+    vendor: true,
+}
