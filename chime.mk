@@ -58,6 +58,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio@2.0-impl \
+    android.hardware.audio.sounddose-vendor-impl \
     android.hardware.soundtrigger@2.3-impl \
     audio.bluetooth.default \
     audio.r_submix.default \
@@ -65,9 +66,12 @@ PRODUCT_PACKAGES += \
     audio.primary.default \
     audio.usb.default \
     libaudio-resampler \
+    libaudioroute.vendor \
+    libprocessgroup.vendor \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
+    libstagefright_softomx_plugin.vendor \
     libtinycompress
 
 PRODUCT_COPY_FILES += \
@@ -120,6 +124,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0.vendor \
     libcamera2ndk_vendor \
     libdng_sdk.vendor \
+    libpng.vendor \
     libstdc++_vendor \
     libgui_vendor
 
@@ -194,7 +199,10 @@ PRODUCT_PACKAGES += \
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.1.vendor \
-    android.hardware.gnss@2.1.vendor
+    android.hardware.gnss@2.1.vendor \
+    libloc_net_iface \
+    libloc_net_iface.vendor \
+    liblocdiagiface
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
@@ -289,7 +297,8 @@ PRODUCT_COPY_FILES += \
 
 # Network
 PRODUCT_PACKAGES += \
-    android.system.net.netd@1.1.vendor
+    android.system.net.netd@1.1.vendor \
+    libnetutils.vendor
 
 # Neural Networks
 PRODUCT_PACKAGES += \
