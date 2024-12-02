@@ -73,12 +73,9 @@
     <hidden-api-whitelisted-app package="com.qualcomm.qcrilmsgtunnel" />
     <hidden-api-whitelisted-app package="com.qti.confuridialer" />
     <hidden-api-whitelisted-app package="com.qti.editnumber" />
-    <hidden-api-whitelisted-app package="com.qualcomm.embmstest" />
     <hidden-api-whitelisted-app package="com.qualcomm.qti.ltedirect" />
     <hidden-api-whitelisted-app package="com.android.MultiplePdpTest" />
     <hidden-api-whitelisted-app package="com.qualcomm.qti.app" />
-    <hidden-api-whitelisted-app package="com.qualcomm.embms" />
-    <hidden-api-whitelisted-app package="com.qualcomm.qti.embmstuneaway" />
     <hidden-api-whitelisted-app package="com.qualcomm.qti.uimlpatest" />
     <hidden-api-whitelisted-app package="com.qualcomm.qti.lpa" />
     <hidden-api-whitelisted-app package="com.qualcomm.qti.uim" />
