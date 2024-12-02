@@ -2,6 +2,7 @@
 camera.                                         u:object_r:vendor_camera_prop:s0
 persist.camera.                                 u:object_r:vendor_camera_prop:s0
 persist.vendor.camera                           u:object_r:vendor_camera_prop:s0
+persist.vendor.EnableP3ColorSpace               u:object_r:vendor_camera_prop:s0
 ro.vendor.camera.                               u:object_r:vendor_camera_prop:s0
 sys.boot.hwc                                    u:object_r:vendor_camera_prop:s0
 vendor.camera.                                  u:object_r:vendor_camera_prop:s0
