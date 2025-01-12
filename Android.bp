@@ -6,6 +6,7 @@
 
 soong_namespace {
      imports: [
+        "bootable/deprecated-ota",
         "hardware/halcyon/interfaces/power-libperfmgr",
         "hardware/qcom-caf/common/libqti-perfd-client",
         "hardware/xiaomi"
