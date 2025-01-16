@@ -126,6 +126,10 @@ TARGET_USES_ION := true
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
+# OTA package
+AB_OTA_UPDATER := false
+TARGET_OTA_ALLOW_NON_AB := true
+
 # Power
 TARGET_USES_INTERACTION_BOOST := true
 
