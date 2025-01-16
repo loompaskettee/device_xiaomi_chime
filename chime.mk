@@ -23,6 +23,9 @@ $(call inherit-product, device/xiaomi/chime/halcyon.mk)
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
+# Enable whole-program R8 Java optimizations for system_server.
+FULL_SYSTEM_OPTIMIZE_JAVA := true
+
 # Board API level
 BOARD_SHIPPING_API_LEVEL := 30
 
