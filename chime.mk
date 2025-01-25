@@ -54,7 +54,7 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl \
     audio.bluetooth.default \
     audio.r_submix.default \
-    audio.primary.bengal \
+    audio.primary.qcom \
     audio.primary.default \
     audio.usb.default \
     libaudio-resampler \
@@ -165,8 +165,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service \
     vendor.qti.hardware.display.mapperextensions@1.0.vendor \
     vendor.qti.hardware.display.mapperextensions@1.1.vendor\
-    gralloc.bengal \
-    hwcomposer.bengal \
+    gralloc.qcom \
+    hwcomposer.qcom \
     libdisplayconfig \
     libqdMetaData \
     libqdMetaData.system \
@@ -253,7 +253,7 @@ PRODUCT_PACKAGES += \
     android.hardware.lights-service.chime
 
 PRODUCT_PACKAGES += \
-    lights.bengal
+    lights.qcom
 
 # Keylayout
 PRODUCT_COPY_FILES += \
