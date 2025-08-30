@@ -30,6 +30,7 @@ BOARD_SHIPPING_API_LEVEL := 30
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     bootable/deprecated-ota \
+    hardware/motorola \
     hardware/xiaomi
 
 # Product Shipping API
@@ -401,7 +402,7 @@ PRODUCT_PACKAGES += \
     libcurl.vendor \
     libjson \
     libjsoncpp.vendor \
-    libsqlite.vendor \
+    libsqlite.vendor
 
 # QTI
 PRODUCT_PACKAGES += \
@@ -445,6 +446,10 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
     librmnetctl \
     libxml2
+
+PRODUCT_PACKAGES += \
+    libqsap_sdk
+
 # Seccomp
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \

@@ -31,6 +31,7 @@ function vendor_imports() {
 		"hardware/qcom-caf/sm8250",
 		"hardware/qcom-caf/wlan",
 		"hardware/xiaomi",
+        "hardware/motorola",
 		"vendor/qcom/opensource/dataservices",
 		"vendor/qcom/opensource/display",
 EOF

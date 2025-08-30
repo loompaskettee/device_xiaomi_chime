@@ -103,6 +103,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "${2}"
             ;;
+        system_ext/priv-app/ims/ims.apk)
+            [ "$2" = "" ] && return 0
+            apktool_patch "${2}" "$MY_DIR/ims-patches"
+            ;;
         *)
             return 1
             ;;
