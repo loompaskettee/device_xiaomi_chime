@@ -108,9 +108,6 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_chime
 # Malloc
 MALLOC_SVELTE := true
 
-# Media
-TARGET_USES_ION := true
-
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
