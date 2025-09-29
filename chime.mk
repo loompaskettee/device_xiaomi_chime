@@ -43,7 +43,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.r_submix.default \
-    audio.primary.qcom \
+    audio.primary.bengal \
     audio.primary.default \
     audio.usb.default \
     libaudio-resampler \
@@ -165,8 +165,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service \
     vendor.qti.hardware.display.mapperextensions@1.0.vendor \
     vendor.qti.hardware.display.mapperextensions@1.1.vendor\
-    gralloc.qcom \
-    hwcomposer.qcom \
+    gralloc.bengal \
+    hwcomposer.bengal \
     libdisplayconfig \
     libqdMetaData \
     libqdMetaData.system \
@@ -256,7 +256,7 @@ PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
 
 PRODUCT_PACKAGES += \
-    lights.qcom
+    lights.bengal
 
 # Keylayout
 PRODUCT_COPY_FILES += \
