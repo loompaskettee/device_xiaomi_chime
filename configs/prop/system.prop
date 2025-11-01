@@ -1,3 +1,6 @@
+# Animation override
+persist.sys.activity_anim_perf_override=true
+
 # Blur
 ro.surface_flinger.supports_background_blur=1
 
