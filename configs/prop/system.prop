@@ -37,11 +37,6 @@ persist.log.tag.SYNX-UMD=S
 persist.log.tag.ultrasound_extn=S
 persist.vendor.camera.logInfoMask=false
 
-# Media
-media.settings.xml=/vendor/etc/media_profiles_vendor.xml
-media.stagefright.thumbnail.prefer_hw_codecs=true
-ro.media.recorder-max-base-layer-fps=60
-
 # Netflix
 ro.netflix.bsp_rev=Q6115-31409-1
 
